@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mapa · Como Funciona o Bitcoin</title>
+  <meta name="description" content="O mapa do conteúdo: tronco comum em economia, depois duas linhas paralelas (não-técnica e técnica).">
+  <link rel="stylesheet" href="/assets/css/reset.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/theme.css">
+  <script src="/assets/js/theme.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-logo">comofuncionabitcoin</a>
+      <nav class="site-nav">
+        <a href="/">Início</a>
+        <a href="/mapa.html" class="active">Mapa</a>
+        <a href="/artigo.html">Exemplo</a>
+        <a href="/sobre.html">Sobre</a>
+      </nav>
+      <div class="controls">
+        <button class="control-btn lang-toggle" data-mirror="/en/map.html" data-lang="en" aria-label="Switch to English">EN</button>
+        <button class="control-btn mode-toggle" aria-label="Alternar modo claro/escuro">☾</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="map-page">
+      <div class="container">
+        <h1>O mapa</h1>
+        <p class="lead">
+          O conteúdo começa unido, com economia e a história do dinheiro. Depois se divide em duas linhas paralelas. Você pode percorrer só a não-técnica, só a técnica, ou as duas. Passe o mouse em uma estação para ver o tema; clique para abrir.
+        </p>
+
+        <div class="map-legend">
+          <div class="legend-item"><span class="line-marker" style="background:var(--color-line-trunk)"></span> Tronco comum (economia)</div>
+          <div class="legend-item"><span class="line-marker" style="background:var(--color-line-nontechnical)"></span> Linha não-técnica</div>
+          <div class="legend-item"><span class="line-marker" style="background:var(--color-line-technical)"></span> Linha técnica</div>
+        </div>
+
+        <div class="subway-map-wrap">
+          <svg class="subway-map" viewBox="0 0 1400 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mapa de estações em formato de metrô">
+
+            <path class="line line-trunk" d="M 80 360 L 720 360" />
+            <path class="line line-nontechnical" d="M 720 360 C 770 360, 800 200, 880 200 L 1340 200" />
+            <path class="line line-technical" d="M 720 360 C 770 360, 800 520, 880 520 L 1340 520" />
+            <path class="line line-branch" d="M 990 520 L 990 640" />
+            <path class="line line-branch" d="M 1210 520 L 1210 640" />
+
+            <g class="station station-trunk" data-track="trunk" data-title="Origens do dinheiro" data-desc="Por que dinheiro existe. Escambo, dificuldade de coincidência, dinheiro como meio indireto de troca. Menger, escola austríaca.">
+              <circle class="station-dot" cx="120" cy="360" r="14"/>
+              <text class="station-label" x="120" y="395" text-anchor="middle" dominant-baseline="hanging">Origens</text>
+            </g>
+            <g class="station station-trunk" data-track="trunk" data-title="O que o governo fez com o dinheiro" data-desc="Fiat, inflação, Rothbard. Como Estados degradam moedas. O caso do padrão-ouro e seu fim.">
+              <circle class="station-dot" cx="320" cy="360" r="14"/>
+              <text class="station-label" x="320" y="395" text-anchor="middle" dominant-baseline="hanging">Estado &amp; dinheiro</text>
+            </g>
+            <g class="station station-trunk" data-track="trunk" data-title="O padrão Bitcoin" data-desc="Saifedean Ammous. Escassez digital, hard money, tempo como propriedade econômica.">
+              <circle class="station-dot" cx="520" cy="360" r="14"/>
+              <text class="station-label" x="520" y="395" text-anchor="middle" dominant-baseline="hanging">Padrão Bitcoin</text>
+            </g>
+            <g class="station station-trunk" data-track="trunk" data-title="O problema do gasto duplo" data-desc="A pergunta-chave que Bitcoin resolve. Por que dinheiro digital era impossível antes. Aqui as linhas se dividem.">
+              <circle class="station-dot" cx="720" cy="360" r="16"/>
+              <text class="station-label" x="720" y="397" text-anchor="middle" dominant-baseline="hanging">Gasto duplo</text>
+            </g>
+
+            <g class="station station-nontechnical station-placeholder" data-track="nontechnical" data-title="Estação não-técnica 1" data-desc="Em planejamento. Conteúdo a definir.">
+              <circle class="station-dot" cx="940" cy="200" r="14"/>
+              <text class="station-number" x="940" y="200">T1</text>
+              <text class="station-label" x="940" y="170" text-anchor="middle">Estação T1</text>
+            </g>
+            <g class="station station-nontechnical station-placeholder" data-track="nontechnical" data-title="Estação não-técnica 2" data-desc="Em planejamento. Conteúdo a definir.">
+              <circle class="station-dot" cx="1080" cy="200" r="14"/>
+              <text class="station-number" x="1080" y="200">T2</text>
+              <text class="station-label" x="1080" y="170" text-anchor="middle">Estação T2</text>
+            </g>
+            <g class="station station-nontechnical station-placeholder" data-track="nontechnical" data-title="Estação não-técnica 3" data-desc="Em planejamento. Conteúdo a definir.">
+              <circle class="station-dot" cx="1220" cy="200" r="14"/>
+              <text class="station-number" x="1220" y="200">T3</text>
+              <text class="station-label" x="1220" y="170" text-anchor="middle">Estação T3</text>
+            </g>
+            <g class="station station-nontechnical station-placeholder" data-track="nontechnical" data-title="Estação não-técnica 4" data-desc="Em planejamento. Conteúdo a definir.">
+              <circle class="station-dot" cx="1340" cy="200" r="14"/>
+              <text class="station-number" x="1340" y="200">T4</text>
+              <text class="station-label" x="1340" y="170" text-anchor="middle">Estação T4</text>
+            </g>
+
+            <g class="station station-technical station-placeholder" data-track="technical" data-title="Estação técnica 1" data-desc="Em planejamento. Provável: funções hash.">
+              <circle class="station-dot" cx="880" cy="520" r="14"/>
+              <text class="station-number" x="880" y="520">X1</text>
+              <text class="station-label" x="880" y="555" text-anchor="middle" dominant-baseline="hanging">Estação X1</text>
+            </g>
+            <g class="station station-technical station-placeholder" data-track="technical" data-title="Estação técnica 2" data-desc="Em planejamento. Provável: assinaturas digitais.">
+              <circle class="station-dot" cx="990" cy="520" r="14"/>
+              <text class="station-number" x="990" y="520">X2</text>
+              <text class="station-label" x="990" y="555" text-anchor="middle" dominant-baseline="hanging">Estação X2</text>
+            </g>
+            <g class="station station-technical station-placeholder" data-track="technical" data-title="Estação técnica 3" data-desc="Em planejamento. Provável: árvores de Merkle.">
+              <circle class="station-dot" cx="1100" cy="520" r="14"/>
+              <text class="station-number" x="1100" y="520">X3</text>
+              <text class="station-label" x="1100" y="555" text-anchor="middle" dominant-baseline="hanging">Estação X3</text>
+            </g>
+            <g class="station station-technical station-placeholder" data-track="technical" data-title="Estação técnica 4" data-desc="Em planejamento. Provável: Proof of Work.">
+              <circle class="station-dot" cx="1210" cy="520" r="14"/>
+              <text class="station-number" x="1210" y="520">X4</text>
+              <text class="station-label" x="1210" y="555" text-anchor="middle" dominant-baseline="hanging">Estação X4</text>
+            </g>
+            <g class="station station-technical station-placeholder" data-track="technical" data-title="Estação técnica 5" data-desc="Em planejamento. Provável: mempool e UTXO.">
+              <circle class="station-dot" cx="1320" cy="520" r="14"/>
+              <text class="station-number" x="1320" y="520">X5</text>
+              <text class="station-label" x="1320" y="555" text-anchor="middle" dominant-baseline="hanging">Estação X5</text>
+            </g>
+
+            <g class="station station-technical station-placeholder" data-track="branch" data-title="Aprofundamento: SHA-256" data-desc="Como funciona SHA-256 por dentro. Opcional para a trilha técnica.">
+              <circle class="station-dot" cx="990" cy="640" r="11"/>
+              <text class="station-label" x="990" y="668" text-anchor="middle" dominant-baseline="hanging">SHA-256</text>
+            </g>
+            <g class="station station-technical station-placeholder" data-track="branch" data-title="Aprofundamento: ECDSA" data-desc="Curvas elípticas, secp256k1, geração de chaves. Opcional para a trilha técnica.">
+              <circle class="station-dot" cx="1210" cy="640" r="11"/>
+              <text class="station-label" x="1210" y="668" text-anchor="middle" dominant-baseline="hanging">ECDSA</text>
+            </g>
+
+          </svg>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>Por <a href="https://github.com/renatodinizc" target="_blank" rel="noopener">Renato Diniz</a></div>
+      <div>Conteúdo aberto. <a href="/en/map.html">English version</a></div>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal">
+      <button class="modal-close" aria-label="Fechar">×</button>
+      <div class="modal-track"></div>
+      <h2 id="modal-title"></h2>
+      <p class="modal-desc"></p>
+      <span class="modal-status"></span>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang.js"></script>
+  <script src="/assets/js/subway-map.js"></script>
+</body>
+</html>
