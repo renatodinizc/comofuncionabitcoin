@@ -1,0 +1,84 @@
+/* Theme: subway-style transit-map identity, tuned to Bitcoin.
+   Orange trunk leads into blue (non-technical) and red (technical) parallel lines. */
+
+:root {
+  --font-display: "Helvetica Neue", "Helvetica", "Arial", "Inter", sans-serif;
+  --font-body: "Helvetica Neue", "Helvetica", "Arial", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+  --weight-display: 700;
+  --track-display: -0.005em;
+  --logo-case: uppercase;
+  --track-logo: 0.05em;
+  --line-width: 10;
+
+  /* Light palette (default) — warm transit-map paper, Bitcoin orange accent */
+  --color-bg: #faf6ec;
+  --color-bg-soft: #f1ead7;
+  --color-fg: #111111;
+  --color-fg-soft: #555555;
+  --color-border: #d0c8b0;
+  --color-accent: #c26a0e;
+  --color-on-accent: #ffffff;
+  --color-link: #b05a00;
+  --color-link-hover: #f7931a;
+  --color-link-underline: rgba(176, 90, 0, 0.35);
+  --color-code-bg: #f1ead7;
+  --color-code-fg: #111111;
+
+  --color-line-trunk: #f7931a; /* Bitcoin orange — the foundation line */
+  --color-line-nontechnical: #1f3a6b; /* deep navy — "the why" */
+  --color-line-technical: #c5283d; /* deep red — "the build" */
+}
+
+[data-mode="dark"] {
+  --color-bg: #181818;
+  --color-bg-soft: #232323;
+  --color-fg: #f5f5f5;
+  --color-fg-soft: #a0a0a0;
+  --color-border: #3a3a3a;
+  --color-accent: #f7931a;
+  --color-on-accent: #181818;
+  --color-link: #f7931a;
+  --color-link-hover: #ffb04d;
+  --color-link-underline: rgba(247, 147, 26, 0.35);
+  --color-code-bg: #232323;
+  --color-code-fg: #f7931a;
+
+  --color-line-trunk: #f7931a;
+  --color-line-nontechnical: #4d8fff;
+  --color-line-technical: #ff5454;
+}
+
+/* Visual identity refinements */
+.site-logo {
+  font-weight: 900;
+}
+
+.track-card {
+  border-width: 2px;
+}
+.track-card::before {
+  height: 8px;
+}
+
+.hero h1 {
+  letter-spacing: -0.025em;
+}
+
+.article-meta .track-badge {
+  background: var(--color-line-trunk);
+  color: #181818;
+  padding: 0.15em 0.6em;
+  border-radius: 999px;
+  letter-spacing: 0.08em;
+}
+
+.btn-primary {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.station-label {
+  font-weight: 700;
+  font-family: var(--font-display);
+}
