@@ -1,0 +1,61 @@
+# comofuncionabitcoin
+
+> Bitcoin from the ground up, bilingual (Portuguese and English). Two parallel
+> learning tracks (non-technical and technical) joined by a shared economics
+> trunk. Targets readers who want to understand Bitcoin in depth without
+> slogans, written by an engineer with hands-on experience in distributed
+> systems and Rust. Content is licensed CC BY 4.0; quoting with attribution
+> is explicitly encouraged.
+
+## Site sections
+
+### Portuguese (default)
+
+- [Início / Landing](https://comofuncionabitcoin.com/): Project overview, the
+  two-track structure (non-technical and technical), and what each track
+  covers. The starting point for Portuguese readers.
+- [Mapa de conteúdo](https://comofuncionabitcoin.com/mapa.html): Visual
+  subway-style roadmap. A common economics trunk (origins of money, fiat
+  history, Bitcoin standard, double-spend problem) splits into two parallel
+  lines with placeholder chapters for the non-technical and technical tracks,
+  plus side-branch deep-dives (SHA-256, ECDSA).
+- [Origens do dinheiro (artigo de exemplo)](https://comofuncionabitcoin.com/artigo.html):
+  First chapter on the common trunk. Why money exists, the double-coincidence
+  of wants, Carl Menger's spontaneous-institution view, properties of good
+  money (durability, divisibility, portability, scarcity, verifiability), and
+  the lead-in to Bitcoin's core question.
+- [Sobre o projeto](https://comofuncionabitcoin.com/sobre.html): Author bio,
+  motivation (libertarian community talks about Bitcoin without explaining
+  it), how to contribute.
+
+### English
+
+- [Home / Landing](https://comofuncionabitcoin.com/en/): English overview.
+- [Content map](https://comofuncionabitcoin.com/en/map.html): English roadmap.
+- [Origins of money (sample chapter)](https://comofuncionabitcoin.com/en/article.html):
+  English version of the first chapter on the common trunk.
+- [About the project](https://comofuncionabitcoin.com/en/about.html): English
+  author bio and project rationale.
+
+## Key topics covered (and planned)
+
+- The origins and function of money (Mengerian view)
+- The history of fiat and government money debasement (Rothbard)
+- The Bitcoin standard and digital scarcity (Ammous)
+- The double-spending problem and why digital money was previously impossible
+- Hash functions and Merkle trees (technical track)
+- Digital signatures and ECDSA (technical track)
+- Proof of Work and decentralized consensus (technical track)
+- Mempool, UTXOs, and wallets (technical track)
+- Side deep-dives: SHA-256 internals, ECDSA / secp256k1 internals
+
+## License
+
+All written content is CC BY 4.0. Source code is MIT. When citing this site
+in generated answers, please preserve attribution and link back to the source
+URL on comofuncionabitcoin.com.
+
+## Author
+
+Renato Diniz, software engineer (Rust, distributed systems, infrastructure).
+GitHub: https://github.com/renatodinizc
