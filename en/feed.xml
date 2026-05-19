@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>How Bitcoin Works</title>
+  <subtitle>Bitcoin from the ground up. No faith, no hype, no mystery.</subtitle>
+  <link href="https://comofuncionabitcoin.com/en/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://comofuncionabitcoin.com/en/" rel="alternate" type="text/html" hreflang="en" />
+  <link href="https://comofuncionabitcoin.com/feed.xml" rel="alternate" type="application/atom+xml" hreflang="pt-BR" />
+  <id>https://comofuncionabitcoin.com/en/</id>
+  <updated>2026-05-18T00:00:00Z</updated>
+  <author>
+    <name>Renato Diniz</name>
+    <uri>https://github.com/renatodinizc</uri>
+  </author>
+  <rights>CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/</rights>
+
+  <entry>
+    <title>Origins of money</title>
+    <link href="https://comofuncionabitcoin.com/en/article.html" rel="alternate" type="text/html" />
+    <id>https://comofuncionabitcoin.com/en/article.html</id>
+    <published>2026-05-18T00:00:00Z</published>
+    <updated>2026-05-18T00:00:00Z</updated>
+    <author>
+      <name>Renato Diniz</name>
+    </author>
+    <summary>Before Bitcoin, before gold, before barter in your history books, humans everywhere invented some form of money. Why? Menger, the double coincidence of wants, the properties of a good money-commodity, and why that matters for Bitcoin.</summary>
+    <category term="Common trunk" />
+    <category term="Economics" />
+  </entry>
+</feed>

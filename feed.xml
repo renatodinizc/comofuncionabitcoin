@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+  <title>Como Funciona o Bitcoin</title>
+  <subtitle>Bitcoin do zero. Sem fé, sem hype, sem mistério.</subtitle>
+  <link href="https://comofuncionabitcoin.com/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://comofuncionabitcoin.com/" rel="alternate" type="text/html" hreflang="pt-BR" />
+  <link href="https://comofuncionabitcoin.com/en/feed.xml" rel="alternate" type="application/atom+xml" hreflang="en" />
+  <id>https://comofuncionabitcoin.com/</id>
+  <updated>2026-05-18T00:00:00Z</updated>
+  <author>
+    <name>Renato Diniz</name>
+    <uri>https://github.com/renatodinizc</uri>
+  </author>
+  <rights>CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/</rights>
+
+  <entry>
+    <title>Origens do dinheiro</title>
+    <link href="https://comofuncionabitcoin.com/artigo.html" rel="alternate" type="text/html" />
+    <id>https://comofuncionabitcoin.com/artigo.html</id>
+    <published>2026-05-18T00:00:00Z</published>
+    <updated>2026-05-18T00:00:00Z</updated>
+    <author>
+      <name>Renato Diniz</name>
+    </author>
+    <summary>Antes do Bitcoin, antes do ouro, antes do escambo nos livros de história, humanos em toda parte inventaram alguma forma de dinheiro. Por quê? Menger, dupla coincidência de desejos, propriedades de uma boa mercadoria-dinheiro, e por que isso importa para Bitcoin.</summary>
+    <category term="Tronco comum" />
+    <category term="Economia" />
+  </entry>
+</feed>

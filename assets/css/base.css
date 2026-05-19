@@ -752,6 +752,51 @@ blockquote {
   color: var(--color-fg-soft);
   margin-bottom: var(--space-3);
 }
+
+.article-body h2,
+.article-body h3,
+.article-body h4 {
+  position: relative;
+  scroll-margin-top: 6rem;
+}
+.article-body .heading-anchor {
+  position: absolute;
+  left: -1.1em;
+  top: 0.05em;
+  width: 1em;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 0.7em;
+  color: var(--color-accent);
+  text-decoration: none;
+  border: none;
+  opacity: 0;
+  transition: opacity var(--transition);
+  line-height: inherit;
+}
+.article-body h2:hover .heading-anchor,
+.article-body h3:hover .heading-anchor,
+.article-body h4:hover .heading-anchor,
+.article-body .heading-anchor:focus-visible {
+  opacity: 0.5;
+}
+.article-body .heading-anchor:hover {
+  opacity: 1;
+  border: none;
+}
+.article-body .heading-anchor.copied {
+  opacity: 1;
+  color: var(--color-line-trunk);
+}
+@media (max-width: 900px) {
+  .article-body .heading-anchor {
+    position: static;
+    display: inline-block;
+    margin-right: 0.25em;
+    opacity: 0.35;
+  }
+}
 .article-body ul,
 .article-body ol {
   padding-left: var(--space-6);
