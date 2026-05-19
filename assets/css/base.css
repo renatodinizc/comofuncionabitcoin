@@ -28,6 +28,11 @@ body {
   font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.6;
+  font-optical-sizing: auto;
+  font-feature-settings: "kern";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   transition:
     background var(--transition),
     color var(--transition);
@@ -673,7 +678,8 @@ blockquote {
 }
 
 .article-body {
-  font-size: 1.05rem;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
 }
 .article-body p,
 .article-body ul,
