@@ -3,3 +3,6 @@
 .vscode/
 .idea/
 node_modules/
+
+# Local notes (research, sketches, drafts — kept on disk, not pushed)
+notes/
