@@ -6,12 +6,25 @@
   <link href="https://comofuncionabitcoin.com/en/" rel="alternate" type="text/html" hreflang="en" />
   <link href="https://comofuncionabitcoin.com/feed.xml" rel="alternate" type="application/atom+xml" hreflang="pt-BR" />
   <id>https://comofuncionabitcoin.com/en/</id>
-  <updated>2026-05-18T00:00:00Z</updated>
+  <updated>2026-05-19T00:00:00Z</updated>
   <author>
     <name>Renato Diniz</name>
     <uri>https://github.com/renatodinizc</uri>
   </author>
   <rights>CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/</rights>
+
+  <entry>
+    <title>Manifesto</title>
+    <link href="https://comofuncionabitcoin.com/en/manifesto.html" rel="alternate" type="text/html" />
+    <id>https://comofuncionabitcoin.com/en/manifesto.html</id>
+    <published>2026-05-19T00:00:00Z</published>
+    <updated>2026-05-19T00:00:00Z</updated>
+    <author>
+      <name>Renato Diniz</name>
+    </author>
+    <summary>Why this site exists. Buying Bitcoin is a bet. Studying Bitcoin is not. In every possible scenario, the one who studied comes out ahead — huge upside, zero downside.</summary>
+    <category term="Manifesto" />
+  </entry>
 
   <entry>
     <title>Origins of money</title>
